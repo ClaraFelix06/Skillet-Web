@@ -145,3 +145,67 @@ nav ul li a:hover {
     font-size: 0.95rem;
     color: #cccccc;
 }
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    color: white;
+    line-height: 1.6;
+}
+
+.container h2 {
+    font-family: 'Batman Forever', sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.container p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.btn-voltar {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0 auto;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.btn-voltar:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #111;
+    color: #cccccc;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #cccccc;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
