@@ -101,6 +101,7 @@ nav ul li a:hover {
     padding: 60px 20px;
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 
 .galeria h2 {
@@ -123,8 +124,8 @@ nav ul li a:hover {
     padding: 15px;
     border-radius: 10px;
     width: 220px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
     transition: transform 0.3s ease;
+    text-decoration: none;
 }
 
 .card-imagem:hover {
@@ -145,7 +146,11 @@ nav ul li a:hover {
     font-size: 0.95rem;
     color: #cccccc;
 }
-
+.card-imagem a {
+    text-decoration: none; /* tira o sublinhado */
+    color: white; /* cor normal */
+    font-weight: bold;
+}
 .container {
     max-width: 800px;
     margin: 40px auto;
@@ -192,19 +197,6 @@ footer {
     color: #cccccc;
     margin-top: 40px;
 }
-
-footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-footer a:hover {
-    color: #cccccc;
-}
-
 footer p {
     margin-top: 20px;
     font-size: 0.9rem;
@@ -284,4 +276,25 @@ footer p {
 .btn-voltar:hover {
     background-color: white;
     color: black;
+}
+.btn-social{
+   padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    
+}
+.btn-social:hover {
+    background-color: white;
+    color: black;
+}
+.redes{
+    display: flex;
+    justify-content: center; 
+    gap: 10px   
 }
